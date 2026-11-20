@@ -1,19 +1,17 @@
-# :earth_americas: GDP dashboard template
+# 똑딱 톡톡 수학 놀이터
 
-A simple Streamlit app showing the GDP of different countries in the world.
+초등학교 1학년을 위한 **시계 보기와 규칙 찾기** 학습 사이트입니다. Streamlit으로 만든 한 페이지 활동 앱으로, 다음 내용을 다룹니다.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://gdp-dashboard-template.streamlit.app/)
+- 긴바늘과 짧은바늘의 뜻, 몇 시와 몇 시 30분 읽기
+- 긴바늘을 직접 움직이는 모형 시계와 30분의 짧은바늘 위치
+- 등교·점심·하교 시각과 뒤집어 보는 디지털 시계 카드
+- 모양, 수, 100까지 수 배열표에서 규칙 찾기
+- 블록으로 규칙 배열을 만들고 물음표로 가리는 짝꿍 퀴즈
+- 배운 내용을 돌아보고 친구의 규칙을 존중하는 태도 확인
 
-### How to run it on your own machine
+## 실행 방법
 
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+```bash
+pip install -r requirements.txt
+streamlit run streamlit_app.py
+```
